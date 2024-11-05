@@ -1,0 +1,76 @@
+body {
+    background-color: #caf4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.instructions{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.compare-choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+
+.round-winner {
+    display: flex;
+    justify-content: center;
+}
+
+.player-choice, .computer-choice{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 24px;
+    border: none;
+    font-size: 24px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFF2CC;
+
+}
+
+button:hover{
+    background-color: #CAEFD1;
+}
+
+
+.end-game-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

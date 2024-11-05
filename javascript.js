@@ -85,9 +85,9 @@ function playRound(getHumanChoice, getComputerChoice) {
 
 function checkScore() {
     if (humanScore === 5) {
-        window.location.pathname = "./pages/playerwins.html";
+        window.location.pathname = "pages/playerwins.html";
     } else if (computerScore === 5) {
-        window.location.pathname = "./pages/computerwins.html";
+        window.location.pathname = "pages/computerwins.html";
     }
     
 }
